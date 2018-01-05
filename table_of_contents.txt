@@ -1,0 +1,33 @@
+document.write('\
+<script type="text/javascript">\
+\
+var ToC =\
+  "<div class='collapse navbar-collapse'>" +\
+    "<ul class='nav navbar-nav'>";\
+\
+var newLine, el, title, link;\
+$("div.section").each(function() {\
+  el = $(this);\
+  title = el.find("h3").text();\
+  link = "#" + el.attr("id");\
+\
+  newLine =\
+    "<li>" +\
+      "<a href='" + link + "'>" +\
+        title +\
+      "</a>" +\
+    "</li>";\
+\
+   console.log(newLine);\
+\
+  ToC += newLine;\
+\
+});\
+\
+ToC +=\
+   "</ul>" +\
+  "</div>";\
+\
+$("#table-section").append(ToC);\
+</script>\
+')

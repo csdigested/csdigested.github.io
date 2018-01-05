@@ -1,0 +1,22 @@
+document.write('\
+<div style="height:300px;" class="container-fluid navbar navbar-inverse">\
+	<div class="navbar-footer">\
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myFooter">\
+			<span class="icon-bar"></span>\
+			<span class="icon-bar"></span>\
+			<span class="icon-bar"></span>\
+		</button>\
+		<a class="navbar-brand" href="#"></a>\
+	</div>\
+	<div>\
+		<div class="collapse navbar-collapse" id="myFooter">\
+			<ul class="nav navbar-nav " class="navbar-brand">\
+				<li>\
+					<a>CS Digested is a website dedicated to making computer science as digestable as possible.</a>\
+				</li>\
+				<li>\
+					<a>&#169; 2018, CS Digested</a>\
+				</li>\
+			</ul>\
+		</div>\
+	</div>')
