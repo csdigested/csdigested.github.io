@@ -14,4 +14,22 @@
      position: relative;
      top: 50px;
   }
-  .section {padding-top:80px;height:500px; }
+  .section {padding-top:40px;height:200px; }
+
+  #site-title {color : black}
+  a:hover
+  {
+    text-decoration:  none;
+    color:            #4d4d4d;
+  }
+
+  a.decor{
+    border-radius: 15px;
+    border: 1px solid #b8b894;
+    padding: 10px;
+    width: 20px;
+    height: 20px; 
+  }
+
+ 
+
